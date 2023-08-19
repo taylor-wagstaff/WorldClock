@@ -1,5 +1,6 @@
 import './Paris.css'
 import React, { useState, useEffect } from 'react'
+import ProgressBar from './ProgressBar'
 
 function Paris() {
   const [parisTime, setParisTime] = useState('')
@@ -46,9 +47,8 @@ function Paris() {
   return (
     <div className="parisClock">
       <header className="paris-clock-header">
-        <p>Paris time: {parisTime}</p>
-
-        <span> {timeProgress}% Completed</span>
+        <ProgressBar progress={timeProgress} />
+        <p>Paris: {parisTime}</p>
       </header>
     </div>
   )

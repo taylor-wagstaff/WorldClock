@@ -1,14 +1,14 @@
-.parisClock {
+/* .parisClock {
   text-align: center;
-}
+} */
 
 .paris-clock-header {
-  background-color:green;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+
+  
+  background-color: black;
   color: white;
+
+  font-size: 3rem;
 
 }
 

@@ -1,13 +1,18 @@
 .App {
-  text-align: center;
+
+  margin: 0;
+}
+
+p {
+
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
 
 .App-header {
-  background-color: black;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: white;
+
+  
+  color: black;
+  font-size: 3rem;
 
 }
