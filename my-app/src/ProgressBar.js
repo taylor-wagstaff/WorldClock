@@ -4,7 +4,7 @@ import './ProgressBar.css'
 
 const ProgressBar = ({ progress }) => {
   const generateGradient = (progress) => {
-    return `linear-gradient(to right, gold ${progress - 20}%, lightgrey ${
+    return `linear-gradient(to right, #595959 ${progress - 20}%, lightgrey ${
       progress + 10
     }%, white 100%)`
   }
@@ -15,6 +15,10 @@ const ProgressBar = ({ progress }) => {
     backgroundImage: generateGradient(progress),
     overFlow: 'hidden',
     borderTopRightRadius: '3rem',
+    borderBottomRightRadius: '3rem',
+
+    transition: 'width 2s ease-in-out',
+    border: '5px solid black',
   }
 
   return (
