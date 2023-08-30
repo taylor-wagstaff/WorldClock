@@ -1,7 +1,5 @@
 import './App.css'
-import Auckland from './Auckland'
-import Paris from './Paris'
-import London from './London'
+import Clock from './Clock'
 
 function App() {
   return (
@@ -9,9 +7,7 @@ function App() {
       <header className="App-header">
         <p>World's Day Progress</p>
       </header>
-      <Auckland />
-      <London />
-      <Paris />
+      <Clock />
     </div>
   )
 }

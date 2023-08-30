@@ -1,6 +1,6 @@
 
 .container  {
-  height: 200px;
+  height: 50px;
   width: 100%;
   background-color: white;
   margin: 50;
@@ -19,7 +19,7 @@
 
 .label  {
   color:black;
-  font-size: 10rem;
+  font-size: 3rem;
   display: flex;
   justify-content: center;
   
